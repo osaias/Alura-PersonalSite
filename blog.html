@@ -11,57 +11,70 @@
   </head>
 <body>
   <main>
-    <h1>Blog</h1>
-      <div>
-        <h2>O essencial de design responsivo</h2>
+    <h1 class="titulo-principal subtitulo">Blog</h1>
+      <div class="conteudo-principal">
+        <h2 class="subtitulo">O essencial de design responsivo</h2>
 
         <article>
           <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis.</p>
-          <p>Mas como começar?<a href="#">Leia mais</a></p>
+          <p>Mas como começar?<a href="#" class="leia-mais">Leia mais</a></p>
 
           <time datetime="2017-11-25">25 de novembro de 2017</time>
           <footer>Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>,<a href="#">CSS</a></footer>
         </article>
 
-        <h2>Por que fazer páginas acessíveis?</h2>
+        <h2 class="subtitulo">Por que fazer páginas acessíveis?</h2>
 
         <article>
           <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas,
             inclusive da própria <a href="https://www.w3schools.com/">W3C</a>.
           </p>
-          <p>Mas vale a pena investir nisso? <a href="#">Leia mais</a></p>
+          <p>Mas vale a pena investir nisso? <a href="#" class="leia-mais">Leia mais</a></p>
           <time datetime="2018-05-02">02 de Maio de 2018</time>
 
-          <footer>Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
+          <footer class="tags">Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
         </article>
 
-        <h2>JavaScript não obstrusivo</h2>
+        <h2 class="subtitulo">JavaScript não obstrusivo</h2>
 
         <article>
           <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas.
             Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.
           </p>
           <time datetime="2018-02-18">18 de Fevereiro de 2018</time>
-          <a href="#">Leia mais</a>
+          <a href="#" class="leia-mais">Leia mais</a>
           <footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
         </article>
     </div>
   </main>
   <img src="imgs/eu1.jpg" alt="foto de joão da silva">
-  <aside>
-    <h1>João da Silva</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="bio.html">Sobre Mim</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contato.html">Contato</a></li>
+  <aside class="navegacao-site">
+    <div>
+      <h1 class="subtitulo">João da Silva</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="bio.html">Sobre Mim</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <ul class="icones-sociais">
+        <li>
+          <a href="https://github.com/git-joaodasilva" class="github">github</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/twitter-joaodasilva" class="twitter">twitter</a>
+        </li>
+        <li>
+          <a href="https://br.linkedin.com/pub/linkedin-joao-da-silva/32/4/508" class="linkedin">linkedin</a>
+        </li>
       </ul>
-    </nav>
+    </div>
   </aside>
-  <footer>
+  <footer id="rodape-pagina">
     &copy; João da Silva 2018
-  </footer
+  </footer>
 </body>
 </html>
